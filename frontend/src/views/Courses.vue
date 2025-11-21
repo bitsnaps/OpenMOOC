@@ -5,7 +5,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-4xl tracking-tight font-extrabold text-slate-900 sm:text-5xl md:text-6xl">
           Master your craft with <br class="hidden sm:block"/>
-          <span class="text-indigo-600">TalentCampus</span>
+          <span class="text-indigo-600">OpenMOOC</span>
         </h1>
         <p class="mt-3 max-w-md mx-auto text-base text-slate-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
           Build skills with courses, certificates, and degrees online from world-class universities and companies.

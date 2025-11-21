@@ -58,4 +58,4 @@ venv/
 
 
 # DB
-*.db
+mooc.db

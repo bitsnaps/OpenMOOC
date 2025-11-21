@@ -1,4 +1,4 @@
-# TalentCampus (MOOC) 🎓
+# OpenMOOC  🎓
 
 A modern, lightweight MOOC (Massive Open Online Course) platform built for demonstration purposes. This project features a RESTful API backend using **FastAPI** and a responsive, component-driven frontend using **Vue 3** and **Tailwind CSS v4**.
 
@@ -92,3 +92,7 @@ The you can the following command:
 pnpm test
 ```
 It uses the `vitest test tests/*` from the `package.json` file.
+
+## License
+
+MIT

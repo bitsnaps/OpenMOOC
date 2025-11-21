@@ -102,7 +102,7 @@ async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = De
     return user
 
 # --- APP & ROUTES ---
-app = FastAPI(title="TalentCampus API")
+app = FastAPI(title="OpenMOOC API")
 
 # CORS (Allow Frontend to talk to Backend)
 app.add_middleware(
