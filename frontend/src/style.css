@@ -1,11 +1,17 @@
+/* 1. Import Fonts first (Standard CSS rule) */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* 2. Import Tailwind v4 */
+@import "tailwindcss";
 
-body {
-  font-family: 'Inter', sans-serif;
-  @apply bg-slate-50; /* Ensure background is consistent everywhere */
+/* 3. Configure Theme (Replaces tailwind.config.js) */
+@theme {
+  /* This sets the default sans font to Inter */
+  --font-sans: "Inter", sans-serif;
 }
 
+/* 4. Custom CSS */
+body {
+  font-family: "Inter", sans-serif;
+  @apply bg-slate-50 text-slate-900;
+}
